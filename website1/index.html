@@ -1,0 +1,1170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Adams Lumber</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://use.typekit.net/svn1kyw.css">
+<link rel="stylesheet" href="https://use.typekit.net/svn1kyw.css">
+<link rel="stylesheet" href="https://use.typekit.net/svn1kyw.css">
+<link rel="stylesheet" href="css/w3.css">
+
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+<link rel="stylesheet" href="./css/w3.css" />
+
+    <!-- begin: add jquery script links to support for sortable table -->
+    <!-- jquery.min.js should be loaded before jquery.tablesorter.min.js because tablesorter requires basice jquery -->
+    <script
+      type="text/JavaScript"
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+    ></script>
+    <script
+      type="text/JavaScript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.3/js/jquery.tablesorter.min.js"
+    ></script>
+    <!-- end: add jquery script links to support for sortable table -->
+
+<!-- java styles -->
+    
+    <style>
+    
+      /* customize <a> tag styles */
+      /* changing the html element style will have a univeral effect */
+      /* we want to keep the shopping cart and search icon in brown color, and */
+      /* we use inline css in the <a> for shopping cart and search icon */
+      a {
+        text-decoration: none;
+        color: black;
+        cursor: pointer;
+      }
+
+      /* my css */
+      .my-img-size-1 {
+        max-width: 300px;
+      }
+
+      .my-img-size-2 {
+        max-width: 500px;
+      }
+
+      /* place the element to the left */
+      .my-float-left {
+        float: left;
+        padding-right: 20px;
+      }
+
+      /* place the element to the right */
+      .my-float-right {
+        float: right;
+        padding-left: 20px;
+      }
+
+      /* class with scrollabe effect */
+      .my-scrolling {
+        height: 300px;
+        overflow: auto;
+        align-self: center;
+      }
+
+      /* center the carousel slide */
+      .mySlides {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 65%;
+      }
+
+      /* accordion button hover */
+      #accordionBtn1:hover,
+      #accordionBtn2:hover {
+        background-color: rgb(216, 208, 198) !important;
+      }
+
+      /* video background */
+      video {
+        height: 100%;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    </style>
+
+<!-- font styles-->
+<style>
+p {
+    color: #080706;
+    font-family:'protipo-wide';
+    
+}
+
+</style>
+
+<style>
+h2 {
+    color: #080706;
+    font-family:'buckboard-pro';
+}
+
+h3 {
+    color: #080706;
+    font-family:'buckboard-pro';
+    font-size: 20px;
+}
+</style>
+
+<style>
+body {
+    background-color: rgb(240, 229, 216);
+}
+</style>
+
+<style>
+      .clickhere {
+        font-family: 'buckboard-pro';
+        font-optical-sizing: auto;
+        font-size: 100px;
+        font-weight: 400;
+        font-style: normal;
+         color: rgb(161, 163, 37);
+         padding: 10px;
+      }
+    </style>
+
+<style>
+      .buckboardprohead {
+        font-family: 'buckboard-pro';
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-size: 70px;
+        font-style: normal;
+        background-color:rgb(216, 208, 198);
+         color: rgb(161, 163, 37);
+         padding: 10px;
+      }
+    </style>
+
+<style>
+      .buckboardnav {
+        font-family: 'buckboard-pro';
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+         color:black;
+         padding: 10px;
+      }
+    </style>
+
+
+
+<!-- social media icons -->
+<style>
+      /* Internal CSS */
+      * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+      }
+
+      .sticky-box {
+        width: 80px;
+        height: 200px;
+        background-color:  rgb(216, 208, 198);;
+        text-align: center;
+        position: sticky;
+        top: 60px; /* sticky to the top page */
+        bottom: 0; /* sticky to the bottom page */
+        float: left; /* make the sticky-box an inline element and stay on the left*/
+      }
+
+      .fixed-box {
+        width: 80px;
+        height: 200px;
+        background-color:  rgb(216, 208, 198);;
+        text-align: center;
+        position: fixed;
+        bottom: 0px; /* sticky to the top page */
+        left: 0; /* use left and right to fix the box to left or right */
+      }
+
+      .icon {
+        padding: 20px;
+        color: rgb(161, 163, 37);
+      }
+      </style>
+
+<!-- containers -->
+    <style>
+.container {
+  display: flex;
+  background-color: rgb(216, 208, 198);
+  justify-content: center; /* Centers items horizontally */
+  align-items: center; /* Centers items vertically */
+}
+
+.container div {
+  background-color: rgb(240, 229, 216);
+  margin: 10px;
+  padding: 20px;
+  font-size: 24px;
+}
+
+.containerdiv2 {
+  
+  margin: 10px;
+  padding: 20px;
+
+}
+</style>
+
+    <style>
+.container2 {
+  display: flex;
+  padding: 100px;
+  margin: 50px;
+  background-color: rgb(216, 208, 198);
+  justify-content: center; /* Centers items horizontally */
+  align-items: center; 
+}
+
+.container3 {
+  display: flex;
+  background-color: rgb(216, 208, 198);
+
+  padding: 100px;
+  margin: 50px;
+  }
+
+  .container4 {
+  display: flex;
+  background-color: rgb(216, 208, 198);
+
+  padding: 50px;
+  margin-top: 0px;
+  margin: 50px;
+    justify-content: center; /* Centers items horizontally */
+  align-items: center;
+  }
+  .container5 {
+  display: flex;
+  background-color: rgb(240, 229, 216);
+  justify-content: center; /* Centers items horizontally */
+  align-items: center; /* Centers items vertically */
+  position: flex; 
+
+}
+</style>
+
+
+<style> 
+.containerhome {
+  position: relative;
+  text-align: center;
+}
+</style>
+
+
+<style> 
+.containercarousel {
+  display: flex;
+  height: 800px;
+  background-position: flex;
+  background-color: rgb(240, 229, 216);
+ 
+  justify-content: center; /* Centers items horizontally */
+  align-items: center; 
+ 
+  
+}
+.containercarouseldiv {
+ 
+  display: flex;
+  margin: 10px;
+  
+  text-align: center;
+  justify-content: center; /* Centers items horizontally */
+  align-items: center; 
+  
+}
+</style>
+
+<style>
+    .centeredtext {
+  position: absolute;
+  display: flex;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: bello-pro; sans-serif;
+  font-style: normal;
+    color:black
+}
+</style>
+<style>
+    .centeredtext2 {
+  position: absolute;
+  display: flex;
+  top: 20%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  font-family: bello-pro; sans-serif;
+  color: #961720;
+  font-size: 100px;
+}
+</style>
+
+<style>
+    .centeredlogo {
+  position: absolute;
+  display: flex;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ 
+}
+</style>
+
+<style>
+    .centeredimage {
+  float: right;
+  margin: 10px;
+  padding: 20px;
+  
+}
+</style>
+
+
+<style>
+.ourstory {
+  column-count: 2;
+  column-rule-style: solid;
+  column-gap: 50px;
+  text-align:justify;
+}
+</style>
+
+<style>
+    .ourstoryh2 {
+  column-span: all;
+  width: 80%;
+  font-family: bello-pro;
+}
+</style>
+
+<style>
+    .center-table {
+  position: flex;
+  margin-top: 300px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 300px;
+  /* Optional: Set a width for the table if it's not 100% */
+  width: 80%; /* Example width */
+  height: auto;
+  border: collapse;
+}
+</style>
+
+<style>
+.foot{
+    color: #080706;
+    font-family:'bello-pro';
+    font-size: 40px;
+}
+</style>
+
+<style> 
+  .gif-background-container {
+    background-image: url('website1/videos/giphy.gif'); /* Replace with the actual path to your GIF */
+    background-position: center center; /* Centers the GIF */
+    background-size: cover; /* Scales the GIF to cover the entire container */
+    background-repeat: no-repeat; /* Prevents the GIF from repeating */
+    display: flex;
+    padding: 100px;
+    margin: 50px;  
+    padding-top: 50px;
+}
+</style>
+
+</head>
+
+
+
+<body>
+<!-- pg1 -->
+
+<!-- home image -->
+ <section>
+  <div class="containerhome">
+    <img
+        class="w3-image"
+        src="images/WEBSITEbackground.png"
+        width="1600"
+        height=""
+      />
+   <div class="centeredtext2 w3-padding-small w3-hide-medium">Welcome to</div>
+    <div class="centeredlogo">
+        <img
+        class="w3-image"
+        src="images/adamslumberlogo1.png"
+        width="400"
+        height=""/>
+      </div>
+
+  </div>
+ <!-- social media icons -->
+   <div class="fixed-box">
+      <!-- Pinterest -->
+      <a
+        href="https://www.pinterest.com/"
+        target="_blank"
+        class="fa fa-pinterest fa-lg fa-2x icon"
+      ></a>
+      <!-- Linkedin -->
+      <a
+        href="https://www.linkedin.com/"
+        target="_blank"
+        class="fa fa-linkedin fa-lg fa-2x icon"
+      ></a>
+      <!-- GitHub -->
+      <a
+        href="https://www.github.com/"
+        target="_blank"
+        class="fa fa-github-alt fa-lg fa-2x icon"
+      ></a>
+   </div>
+ </section>
+    <hr></hr>
+
+<!-- pg2 -->
+  <section id="shop">    
+  <h1 class="buckboardprohead"  style="text-align:center;">Shop</h1>
+
+<div class="container">
+  <div>  
+    <h2 style="text-align:center;">Oak</h2>
+      
+     <img
+        class="w3-image"
+        src="images/whiteOak.jpg.webp"
+        style="float: left;
+              max-width: 300px;
+              padding-right: 20px;
+              padding-bottom: 7px;"
+        />
+    <p text-align="justify"> Oak lumber is a strong, durable hardwood prized for its attractive grain patterns and excellent workability. Known for its light to medium brown color with distinct rays and flecks, oak is often used in fine furniture, flooring, cabinetry, and millwork. It is available in two main types: red oak, which has a warm reddish tone and open grain, and white oak, which is denser, more moisture-resistant, and has a slightly golden hue. Oak’s hardness makes it resistant to wear and impact, while its natural tannins provide some protection against decay and insect damage. Because of its beauty and strength, oak lumber remains a timeless choice for both traditional and modern woodworking projects.
+    </p>
+    <p><br><br><span style="color:blue; padding-top: 30px; font-family: 'buckboard-pro';font-optical-sizing: auto;">Buy Now</span></p>
+    </div>
+  <div>   
+     <h2 style="text-align:center;">Walnut</h2>
+    
+     <p text-align="justify"
+       >Walnut lumber is a premium hardwood valued for its rich, dark brown color and elegant grain patterns. Typically featuring deep chocolate tones with subtle purplish or gray undertones, walnut offers a smooth, fine texture that polishes beautifully. It is moderately dense yet easy to work with, making it ideal for high-end furniture, cabinetry, interior trim, gunstocks, and decorative veneers.
+        <img
+        class="w3-image"
+        src="images/blackWalnut.jpg.webp"
+        style="
+              float: right;
+              max-width: 300px;
+              padding-left: 20px;
+              padding-right: 15px
+              padding-bottom: 10px;"/>
+       Walnut is dimensionally stable, resists warping, and carves well, allowing for intricate detailing and precision joinery. Over time, its color can lighten slightly, developing a warm patina that enhances its natural beauty. Renowned for its luxurious appearance and excellent workability, walnut lumber is a favorite among woodworkers and designers seeking both strength and sophistication.
+       </p>
+        
+      
+      <p><br><br><span style="color:blue; font-family:'buckboard-pro';font-optical-sizing: auto;">Buy Now</span></p>
+    </div>
+
+</div>
+  
+ </section>
+
+
+<!-- pg3 -->
+<section id="about"> 
+ <h1 class="buckboardprohead" style="text-align:center;">About</h1>
+ <div class="container3">
+ <div class="container">
+
+    
+             <!-- scrollable area begin -->
+          <!-- 3 columns of scrollable areas - using w3-row and w3-col classes for partitions -->
+          <div class="w3-row w3-mysand">
+            <div class="w3-col s4 w3-padding ">
+              <div
+                class="w3-mygreen w3-center"
+                style="
+                
+                  margin-left: -16px;
+                  margin-right: -16px;
+                  margin-top: -18px;
+                "
+              >
+                <h2 class="ourstoryh2">A Family history of service</h2>
+              </div>
+              <div class="my-scrolling" style="padding-right: 10px">
+                 <p> Adams Lumber traces its roots back to 1911, when a young entrepreneur named Walter Adams opened a small shop on Main Street under the name *Pacific Supply Co.*. At the time, the business was little more than a modest storefront offering nails, timber, and basic tools to the growing logging and construction communities in the Pacific Northwest. Walter, a former mill worker, saw an opportunity to provide reliable building materials to local tradesmen who were fueling the rapid development of the region. His commitment to fair prices, quality lumber, and personal service quickly set the store apart from larger, impersonal suppliers of the era.Through the 1930s and 1940s, Pacific Supply Co. expanded its product line and became a trusted fixture in the community, surviving the Great Depression and supporting local building efforts during wartime shortages. In 1958, Walter’s son, Harold Adams, officially took over the business and changed its name to *Adams Lumber* to reflect the family’s deepening connection to the community. Under Harold’s leadership, the store grew from a single storefront into a full-service hardware and lumber yard, introducing modern equipment, delivery services, and a dedicated team of long-time employees who became familiar faces to generations of customers.Today, Adams Lumber is run by the third generation of the Adams family, who have blended tradition with modern practices to keep the business thriving. The original storefront still stands as part of a larger facility that now includes specialized departments for tools, home improvement, and sustainable building materials. Though the products have evolved over time, the company’s core values—honest service, quality materials, and community support—remain unchanged. More than a century after its founding, Adams Lumber continues to serve as both a neighborhood hardware store and a living piece of local history.
+                    </p>
+              </div>
+            </div>
+           
+            
+          </div>
+        </div>
+
+ </div>
+         <!-- carousel slideshow begin -->
+   <div class="container5">
+  
+    <div class="containercarousel">
+       <div class="containercarouseldiv">
+          <div>
+            <img class="mySlides" src="images/accordion/a652c96b8bd386383d81728df41b3feb.jpg" 
+             style="width: 1200px; display: none" />
+            <img
+              class="mySlides"
+              src="images/accordion/il_570xN.1970158694_d4tr.jpg.webp"
+              style="width: 1200px; display: none"
+            />
+            <img
+              class="mySlides"
+              src="images/accordion/pacific-net-and-twine-company-building-seattle-ca-1910.jpg"
+              style="width: 1200px; display: none"
+            />
+            <img
+              class="mySlides"
+              src="images/gallery/lumber-yard-washington-usa-early-1900s-32392578.jpg.webp"
+              style="width: 1200px; display: none"
+            />
+          </div>
+          <!-- carousel slideshow end -->
+       </div> 
+ 
+     
+        </div>
+        
+    </div>
+  <!-- carousel thumbnail begin-->
+   
+           <div class="containercarouseldiv" style="padding-bottom: 300px;">
+          
+          <div class="w3-col s3">
+            <!-- "currentDiv(1)" link to 1st slide -->
+            <!-- demo class is used by a javascript function to turn off the opacity effect -->
+            <img
+              class="demo w3-opacity w3-hover-opacity-off"
+              src="images/accordion/a652c96b8bd386383d81728df41b3feb.jpg"
+              style="width: 100%; cursor: pointer; padding: 7px"
+              onclick="currentDiv(1)"
+            />
+          </div>
+          <div class="w3-col s3">
+            <!-- "currentDiv(2)" link to 2nd slide -->
+            <!-- demo class is used by a javascript function to turn off the opacity effect -->
+            <img
+              class="demo w3-opacity w3-hover-opacity-off"
+              src="images/accordion/il_570xN.1970158694_d4tr.jpg.webp"
+              style="width: 100%; cursor: pointer; padding: 7px"
+              onclick="currentDiv(2)"
+            />
+          </div>
+          <div class="w3-col s3">
+            <!-- "currentDiv(3)" link to 3rd slide -->
+            <!-- demo class is used by a javascript function to turn off the opacity effect -->
+            <img
+              class="demo w3-opacity w3-hover-opacity-off"
+              src="images/accordion/pacific-net-and-twine-company-building-seattle-ca-1910.jpg"
+              style="width: 100%; cursor: pointer; padding: 7px"
+              onclick="currentDiv(3)"
+            />
+          </div>
+         </div>
+          <!-- carousel thumbnail end-->
+    </div>
+           
+ </section>
+
+ <!-- pg4 -->
+
+ <section id="pricing">
+  <h1 class="buckboardprohead" style="text-align:center;">Pricing</h1>
+
+  <table class= center-table style="font-size: 60px; background-color:rgb(161, 163, 37);">
+
+<tr>
+<th style="background-color: rgb(240, 229, 216); border: 1px solid rgb(240, 229, 216);"></th>
+<th style="border: 1px solid rgb(240, 229, 216);">Oak</th>
+<th style="border: 1px solid rgb(240, 229, 216)">Maple</th>
+<th style="border: 1px solid rgb(240, 229, 216)">Birch</th>
+<th style="border: 1px solid rgb(240, 229, 216)">Walnut</th>
+</tr>
+<tr>
+<td style="border: 1px solid rgb(240, 229, 216)">2"x4"</td>
+<td style="border: 1px solid rgb(240, 229, 216)">$2</td>
+<td style="border: 1px solid rgb(240, 229, 216)">$5</td>
+<td style="border: 1px solid rgb(240, 229, 216)">$1</td>
+<td style="border: 1px solid rgb(240, 229, 216)">$2</td>
+</tr>
+<tr>
+<td style="border: 1px solid rgb(240, 229, 216)">3/4"x6</td>
+<td style="border: 1px solid rgb(240, 229, 216)">$5</td>
+<td style="border: 1px solid rgb(240, 229, 216)"> $8</td>
+<td style="border: 1px solid rgb(240, 229, 216)">$4</td>
+<td style="border: 1px solid rgb(240, 229, 216)">$5</td>
+<tr>
+<td style="border: 1px solid rgb(240, 229, 216)">1/2"x10"</td>
+<td style="border: 1px solid rgb(240, 229, 216)">$10</td>
+<td style="border: 1px solid rgb(240, 229, 216)"> $15</td>
+<td style="border: 1px solid rgb(240, 229, 216)">$8</td>
+<td style="border: 1px solid rgb(240, 229, 216)">$10</td>
+<tr>
+<td style="border: 1px solid rgb(240, 229, 216)">1"x12"</td>
+<td style="border: 1px solid rgb(240, 229, 216)">$15</td>
+<td style="border: 1px solid rgb(240, 229, 216)"> $20</td>
+<td style="border: 1px solid rgb(240, 229, 216)">$12</td>
+<td style="border: 1px solid rgb(240, 229, 216)">$15</td>
+</tr>
+</tr>
+  </table>
+ </section>
+
+ <!-- pg5 -->
+ <section id="projects">
+  <h1 class="buckboardprohead" style="text-align:center;">Projects</h1>
+  
+        
+      <div class="w3-container w3-padding-64" style="padding-top: 150px;" >
+        <div class="w3-padding-large">
+          
+          <!-- youtube video begin -->
+          <div class="w3-row">
+            <!-- create 1st column -->
+            <div class="w3-col m4 w3-center">
+              <!-- paste the YouTube video link -->
+              <iframe
+                height="200"
+                src="https://www.youtube.com/embed/J5YYN-pkMAw?si=JdEaMbo1F9iXb0ac"
+                title="Intro to Clamps"
+                frameborder="0"
+                allow="autoplay;"
+              >
+              </iframe>
+            </div>
+            <!-- create 2nd column -->
+            <div class="w3-col m4 w3-center">
+              <!-- paste the YouTube video link -->
+              <iframe
+                height="200"
+                src="https://www.youtube.com/embed/2rEqVvW75Q4?si=05_B2QCQADDjDWtt"
+                title="Tips For Driving Screws"
+                frameborder="0"
+                allow="autoplay;"
+              >
+              </iframe>
+            </div>
+            <!-- create 3rd column -->
+            <div class="w3-col m4 w3-center">
+              <!-- paste the YouTube video link -->
+              <iframe
+                height="200"
+                src="https://www.youtube.com/embed/4CvMccfXKnk?si=ukdmjhtC1iGtf0gi"
+                title="Cutting Tenons"
+                frameborder="0"
+                allow="autoplay;"
+              >
+              </iframe>
+            </div>
+          </div>
+
+
+          <!-- youtube video end -->
+
+          <!-- accordion begin -->
+          <div class="w3-row" style="padding-top: 150px;">
+            <!-- create an area to hold both accordion button and content -->
+            <div class="w3-col s6 w3-left" style="padding-right: 3px; padding-top: 15px; padding-bottom:200px;">
+
+              <button
+                onclick="myAccordion('accordion1')"
+                class="w3-button w3-block w3-center-align w3-mygreen w3-hover-white"
+              
+                id="accordionBtn1"
+              >
+                <!-- 
+                  Here is using Font Awesome 4 css and icon. You may check it out here:
+                    https://www.w3schools.com/icons/fontawesome_icons_intro.asp
+                  Note: there are 2 versions - 4 and 5. This website is using Font Awesome 4.
+                -->
+                <h3>  Miter Formula<i class="fa fa-caret-down"></i></h3>
+              </button>
+              <!-- add accordion content here -->
+              <!-- set a unique id="accordion1" for the accordion content -->
+              <div
+                id="accordion1"
+                class="w3-hide w3-container"
+                style="height: 260px"
+              >
+                <p>
+                  The miter formula depends on whether you are cutting two boards of the same width or different widths. For two equal-width boards, simply divide the joint angle by two (e.g., for a corner, the miter angle is ). For different-width boards, a more complex trigonometric formula is needed, such as: Miter Angle . 
+                </p>
+                <p>
+                  Cutting miters starts with accurately measuring and marking your workpiece so the angled joint aligns cleanly. Set your miter saw or miter box to the desired angle—commonly 45 degrees for frames—and ensure the blade is sharp for a smooth cut. Hold the material firmly against the fence to prevent movement, then make the cut in a steady, controlled motion. After cutting both mating pieces, dry-fit them to check the joint; small adjustments with a sanding block or a shooting board can help achieve a tight, seamless corner. Using consistent technique and careful setup ensures crisp, professional-looking miters.
+
+                </p>
+              </div>
+            </div>
+            <!-- repeat the steps to create another accordion button and content here -->
+            <!-- each button id and accordion content id should be unique -->
+            <!-- set button to myAccordion('accordion2') to link to its accordion content -->
+            <!-- set a unique id="accordionBtn1" for the button -->
+            <div class="w3-col s6 w3-left" style="padding-left: 3px; padding-top: 15px; padding-bottom:50px;">
+              <button
+                onclick="myAccordion('accordion2')"
+                class="w3-button w3-block w3-center-align w3-mygreen w3-hover-white"
+                id="accordionBtn1"
+              >
+                <h3>Calculating Board Feet<i class="fa fa-caret-down"></i></h3>
+              </button>
+              <!-- add accordion content here -->
+              <!-- set a unique id="accordion2" for the accordion content -->
+              <div
+                id="accordion2"
+                class="w3-hide w3-container"
+                style="height: 260px"
+              >
+                <p>
+                  A board foot is a unit of measurement for the volume of lumber, equivalent to a piece that is 1 foot long, 1 foot wide, and 1 inch thick.. It is commonly used by sawmills and lumber suppliers to price and sell wood. To calculate the number of board feet for a piece of lumber, you can multiply its thickness by its width by its length and divide by 144 or  width x length x thickness / 12 = board feet 
+                </p>
+                <p>Board feet are a standard unit of measurement used in woodworking and lumber sales to describe the volume of a piece of wood. board footage ensures accurate planning, budgeting, and efficient use of materials
+
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- accordion end -->
+        </div>
+      </div>
+    </div>
+ </section>
+ <!-- pg6 -->
+ <section id="gallery">
+  <h1 class="buckboardprohead" style="text-align:center;">Gallery</h1>
+   <div class="w3-container w3-padding-64">
+        <div class="w3-padding-large">
+          
+          <!-- step 1: add image files to img folder -->
+          <!--    each lightbox should have a thumbnail image and a larger image -->
+          <!-- step 2: add thumbnail image -->
+          <!-- step 3: add modal (background image and close button) -->
+          <!-- create first row to have 3 thumbnail images, 
+             each image takes up 4 columns out of the 12 columns grid,
+             we use classes w3-col s4 -->
+          <!-- first row of thumbnail images created below -->
+          <div class="w3-row-padding" style="margin: 15px 0px">
+            <!-- first thumbnail image created below -->
+
+             <!-- image 1 -->
+            <div class="w3-col s4">
+              <img
+                src="images/gallery/oak-lumber.jpg.webp"
+                style="width: 100%; cursor: zoom-in"
+                onclick="document.getElementById('modal01').style.display='block'"
+                class="w3-hover-shadow"
+              />
+            </div>
+
+            <!-- second thumbnail image created below
+               we set 'modal02' in getElementById('modal02') -->
+
+               <!-- image 2 -->
+            <div class="w3-col s4">
+              <img
+                src="images/gallery/liz-antiques.png.webp"
+                style="width: 100%; cursor: zoom-in"
+                onclick="document.getElementById('modal02').style.display='block'"
+                class="w3-hover-shadow"
+              />
+            </div>
+             <!-- image 3 -->
+            <div class="w3-col s4">
+              <img
+                src="images/gallery/Waney-Edge-Oak.jpg"
+                style="width: 100%; cursor: zoom-in"
+                onclick="document.getElementById('modal03').style.display='block'"
+                class="w3-hover-shadow"
+              />
+            </div>
+            <!-- continue to add the last thumbnail image in the first row here -->
+            <div>
+              <!-- add code to add the last thumbnail image in the first row here -->
+            </div>
+          </div>
+
+          <!-- if needed, follow the samples above to create second row of thumbnail images here -->
+          <div class="w3-row-padding" style="margin: 15px">
+            <!-- add code to create second row of thumbnail images here -->
+               <!-- image 4  -->
+              <div class="w3-col s4">
+              <img
+                src="images/gallery/lumber-yard-washington-usa-early-1900s-32392578.jpg.webp"
+                style="width: 100%; cursor: zoom-in"
+                onclick="document.getElementById('modal04').style.display='block'"
+                class="w3-hover-shadow"
+              />
+            </div>
+             <!-- image 5  -->
+            <div class="w3-col s4">
+              <img
+                src="images/gallery/redwood_sample_photo03.jpg"
+                style="width: 100%; cursor: zoom-in"
+                onclick="document.getElementById('modal05').style.display='block'"
+                class="w3-hover-shadow"
+              />
+            </div>
+               <!-- image 6 -->
+            <div class="w3-col s4">
+              <img
+                src="images/gallery/pf-ae326685--LargeStacksHardwoodLumber01.webp.jpeg"
+                style="width: 100%; cursor: zoom-in"
+                onclick="document.getElementById('modal06').style.display='block'"
+                class="w3-hover-shadow"
+              />
+            </div>
+          </div>
+
+          <!-- add the first modal, set id="modal01"-->
+         
+           <!-- modal 1-->
+          <div
+            id="modal01"
+            class="w3-modal"
+            onclick="this.style.display='none'"
+          >
+            <!-- add close button-->
+            <span
+              class="w3-text-white w3-xxlarge w3-hover-text-grey w3-container w3-display-topright"
+              style="cursor: pointer"
+              >&times;</span
+            >
+            <!-- add modal background image -->
+            <div class="w3-modal-content w3-animate-zoom">
+              <h4 class="w3-center">Oak Lumber</h4>
+              <img src="images/gallery/oak-lumber.jpg.webp" style="width: 100%" />
+            </div>
+          </div>
+
+
+           <!-- modal 2-->
+
+          
+          <div
+            id="modal02"
+            class="w3-modal"
+            onclick="this.style.display='none'"
+          >
+            <!-- add close button-->
+            <span
+              class="w3-text-white w3-xxlarge w3-hover-text-grey w3-container w3-display-topright"
+              style="cursor: pointer"
+              >&times;</span
+            >
+            <!-- add modal background image -->
+            <div class="w3-modal-content w3-animate-zoom">
+              <h4 class="w3-center">The Shop</h4>
+              <img src="images/gallery/liz-antiques.png.webp" style="width: 100%" />
+            </div>
+          </div>
+           
+          <!-- modal 3-->
+
+          
+          <div
+            id="modal03"
+            class="w3-modal"
+            onclick="this.style.display='none'"
+          >
+            <!-- add close button-->
+            <span
+              class="w3-text-white w3-xxlarge w3-hover-text-grey w3-container w3-display-topright"
+              style="cursor: pointer"
+              >&times;</span
+            >
+            <!-- add modal background image -->
+            <div class="w3-modal-content w3-animate-zoom">
+              <h4 class="w3-center">Live Edge Oak</h4>
+              <img src="images/gallery/Waney-Edge-Oak.jpg" style="width: 100%" />
+            </div>
+          </div>
+
+
+        
+          <!-- modal 4-->
+          <div
+            id="modal04"
+            class="w3-modal"
+            onclick="this.style.display='none'"
+          >
+          <!-- add close button-->
+            <span
+              class="w3-text-white w3-xxlarge w3-hover-text-grey w3-container w3-display-topright"
+              style="cursor: pointer"
+              >&times;</span
+            >
+            <!-- add modal background image -->
+            <div class="w3-modal-content w3-animate-zoom">
+              <h4 class="w3-center">Pacific Lumber 1902</h4>
+              <img src="images/gallery/lumber-yard-washington-usa-early-1900s-32392578.jpg.webp" style="width: 100%" />
+            </div>
+          </div>
+
+ 
+
+
+           <!-- modal 5-->
+
+          
+          <div
+            id="modal05"
+            class="w3-modal"
+            onclick="this.style.display='none'"
+          >
+            <!-- add close button-->
+            <span
+              class="w3-text-white w3-xxlarge w3-hover-text-grey w3-container w3-display-topright"
+              style="cursor: pointer"
+              >&times;</span
+            >
+            <!-- add modal background image -->
+            <div class="w3-modal-content w3-animate-zoom">
+              <h4 class="w3-center">Redwood Burl</h4>
+              <img src="images/gallery/redwood_sample_photo03.jpg" style="width: 100%" />
+            </div>
+          </div>
+
+        
+          <!-- modal 6-->
+          <div
+            id="modal06"
+            class="w3-modal"
+            onclick="this.style.display='none'"
+          >
+          <!-- add close button-->
+            <span
+              class="w3-text-white w3-xxlarge w3-hover-text-grey w3-container w3-display-topright"
+              style="cursor: pointer"
+              >&times;</span
+            >
+            <!-- add modal background image -->
+            <div class="w3-modal-content w3-animate-zoom">
+              <h4 class="w3-center">Walnut Lumber</h4>
+              <img src="images/gallery/pf-ae326685--LargeStacksHardwoodLumber01.webp.jpeg" style="width: 100%" />
+            </div>
+          </div>
+            <!-- add code to add modal for each thumbnail image -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+</section>
+<!-- Navbar -->
+<div class="w3-top">
+<div>
+  <div 
+    style="background-color: rgb(161, 163, 37)"
+    class="w3-bar w3-top w3-center w3-large">
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-theme-l1"> <img
+        class="w3-image"
+        src="images/adamslumberlogo1.png"
+        width="100px"
+        height="" />
+    </a>
+    
+    <a href="#shop" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Shop</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small w3-hover-white">About</a>
+    <a href="#pricing" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Pricing</a>
+    <a href="#projects" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Projects</a>
+    <a href="#gallery" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Gallery</a>
+      <a class="w3-padding-large w3-hide-small w3-right"
+            ><i class="fa fa-shopping-basket"></i
+          ></a>
+          <a class="w3-padding-large w3-hide-small w3-right"
+            ><i class="fa fa-search"></i
+          ></a>
+
+           <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+        <a
+          href="javascript:void(0)"
+          class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium"
+          onclick="w3_open()"
+        >
+          <!-- use the hamburger icon (menu icon) from font-awesome.min.css -->
+
+          <i class="fa fa-bars w3-text-black"></i>
+        </a>
+   </div>   
+  </div>
+</div>
+    <!-- navbar - mobile version -->
+    <nav
+      class="w3-sidebar w3-bar-block w3-sand w3-card w3-animate-left w3-hide-medium w3-hide-large w3-text-brown w3-large"
+      style="display: none"
+      id="mySidebar"
+    >
+      <a
+        href="javascript:void(0)"
+        onclick="w3_close()"
+        class="w3-bar-item w3-button w3-large w3-padding-16"
+        >Close &times;</a
+      >
+      <a href="#shop" onclick="w3_close()" class="w3-bar-item w3-button"
+        >Shop</a
+      >
+      <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button"
+        >About</a
+      >
+      <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button"
+        >Pricing</a
+      >
+      <!-- more id references to mobile navbar -->
+      <a href="#projects" onclick="w3_close()" class="w3-bar-item w3-button"
+        >Projects</a
+      >
+      <a href="#gallery" onclick="w3_close()" class="w3-bar-item w3-button"
+        >Gallery</a
+      >
+    </nav>
+    <!-- navbar - mobile version end -->
+
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a class="w3-button w3-mygreen" href="#home">1</a>
+      <a class="w3-button w3-hover-mygreen" href="#shop">2</a>
+      <a class="w3-button w3-hover-mygreen" href="#about">3</a>
+      <a class="w3-button w3-hover-mygreen" href="#pricing">4</a>
+      <a class="w3-button w3-hover-mygreen" href="#products">5</a>
+      <a class="w3-button w3-hover-mygreen" href="#gallery">»</a>
+    </div>
+  </div>
+
+  <!-- Footer -->
+
+  <footer id="myFooter">
+    <div class="w3-container w3-center w3-padding-32">
+        
+
+     <h4 class="foot" background-color= "rgb(216, 208, 198);" font-size= "50px">Proudly serving Seattle since 1918</h4>
+        
+    </div>
+
+    <div class="w3-container w3-center w3-sand">
+      <p>1417 12th Ave, Seattle, WA 98122       (805)555-7556       adamslumber@gmail.com </p>
+        
+    </footer>
+
+<!-- END MAIN --> 
+
+<!-- java--> 
+<script>
+      // mobile version begin
+      // Toggle between showing and hiding the sidebar when clicking the menu icon
+      var mySidebar = document.getElementById("mySidebar");
+
+      function w3_open() {
+        if (mySidebar.style.display === "block") {
+          mySidebar.style.display = "none";
+        } else {
+          mySidebar.style.display = "block";
+        }
+      }
+
+      // Close the sidebar with the close button
+      function w3_close() {
+        mySidebar.style.display = "none";
+      }
+      // mobile version end
+
+      // carousel slideshow begin
+      var myIndex = 0;
+      carousel();
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) {
+          myIndex = 1;
+        }
+        x[myIndex - 1].style.display = "block";
+        setTimeout(carousel, 5000); // Change image every 5 seconds
+      }
+
+      // slideshow - carousel
+      // hook each carousel button
+      function currentDiv(n) {
+        showDivs((slideIndex = n));
+        myIndex = n;
+      }
+
+      function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("demo");
+        if (n > x.length) {
+          slideIndex = 1;
+        }
+        if (n < 1) {
+          slideIndex = x.length;
+        }
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+        }
+        x[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " w3-opacity-off";
+      }
+      // carousel slideshow end
+
+      // sortable table begin
+      $(document).ready(function () {
+        $("table#myTable").tablesorter({
+          sortList: [
+            [2, 1],
+          ] /* 1st number - column to sort, 2nd number - asending (2) or descending order (1) */,
+          CssAsc: "tablesorter-headerAsc",
+          CssDesc: "tablesorter-headerDesc",
+        });
+      });
+      // sortable table end
+
+      // accordion begin
+      function myAccordion(id) {
+        var x = document.getElementById(id);
+        // if the accordion text is hidden, show it and change the button color to orange
+        if (x.className.indexOf("w3-show") == -1) {
+          x.className += " w3-show";
+          x.previousElementSibling.className =
+            x.previousElementSibling.className.replace("w3-brown", "w3-orange");
+        } else {
+          // if the accordion text is displayed, hide it and change the button color to brown
+          x.className = x.className.replace(" w3-show", "");
+          x.previousElementSibling.className =
+            x.previousElementSibling.className.replace("w3-orange", "w3-brown");
+        }
+      }
+      // accordion end
+    </script>
+
+</body>
+</html>
